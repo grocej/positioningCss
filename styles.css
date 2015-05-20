@@ -1,0 +1,15 @@
+.outerBox {
+  position: relative;
+  right: 0;
+  width:500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: grey;
+}
+.innerBox {
+  position: relative;
+  /*top, bottom, left, right*/
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
