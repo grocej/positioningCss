@@ -1,15 +1,107 @@
-.outerBox {
-  position: relative;
-  right: 0;
-  width:500px;
-  height: 500px;
-  margin: 0 auto;
-  background-color: grey;
+section {
+  margin-left: 100px;
+  width: 800px;
+  clear:both;
 }
-.innerBox {
+.rough {
   position: relative;
-  /*top, bottom, left, right*/
-  background-color: red;
-  width: 50px;
-  height: 50px;
+  width: 100%;
+}
+.surfPaddle {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  list-style-type: none;
+  float: left;
+  font-family: sans-serif;
+}
+.navAbout {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  float: right;
+  list-style-type: none;
+  margin: 0px 6px 0px 6px;
+  font-family: sans-serif;
+}
+.navSearch {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  float: right;
+  list-style-type: none;
+  margin: 0px 6px 0px 6px;
+  font-family: sans-serif;
+}
+.pullQuote {
+  color: blue;
+  font-size: 20px;
+  float: left;
+  border-left: 1px solid grey;
+  padding-left: 10px;
+}
+.bottomFour {
+  height: 250px
+  width:25%;
+  margin: 0px 0px 0px 0px;
+}
+p {
+  margin-bottom: 15px;
+  display: block;
+  margin-left: 100px;
+  margin-right: 450px;
+  margin-top: 0;
+  clear: both;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #404040;
+
+}
+h1 {
+  font-family: sans-serif;
+  color: #404040;
+  text-align:center;
+  margin-bottom: 10px;
+}
+.headline {
+  font-size: 40px;
+  font-family: sans-serif;
+  float: left;
+  margin-left: 100px;
+}
+a:hover {
+  opacity: 0;
+  color: blue;
+}
+a {
+  color: #8c8c8c;
+}
+.boxesBottom {
+  font-size: 9px;
+  font-family: sans-serif;
+  margin-left: 100px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.mainTitle {
+  margin-left: 22%;
+  margin-right: 0;
+  margin-top: -140px;
+  margin-bottom: 0;
+  width: 100%;
+  font-size: 50px;
+  font-color: #000000;
+  font-family: "Myriad", sans-serif;
+  float: left;
+  position: absolute;
+}
+.subTitle {
+  float: left;
+  display: inline;
+  margin-left: 300px;
+  margin-top: -70px;
+  position: absolute;
+}
+footer {
+  border-top: 1px solid #e8e8e8;
 }
